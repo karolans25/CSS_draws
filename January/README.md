@@ -27,3 +27,6 @@ These were the CSS_Battle exercises made in January. Click over the image if you
 
 ### January, 30th ✔️ ✅
 [![January, 30th](draws/30.png)](html/30.html)
+
+### January, 31th ✔️ ✅
+[![January, 31th](draws/31.png)](html/31.html)
