@@ -5,7 +5,7 @@ These were the CSS_Battle exercises made in January. Click over the image if you
 **Notes:** Check the exercises in CSS_Battle (✔️), but also looks great directly from `html` file (✅)
 
 ### January, 23th ✔️ ✅
-[![January, 23th](draws/23.png)](23.html)
+[![January, 23th](draws/23.png)](html/23.html)
 
 ### January, 24th ✔️ ✅
 [![January, 24th](draws/24.png)](html/24.html)
