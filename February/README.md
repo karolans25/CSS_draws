@@ -6,3 +6,6 @@ These were the CSS_Battle exercises made in February. Click over the image if yo
 
 ### February, 1st ✔️ ✅
 [![February, 1st](draws/01.png)](html/01.html)
+
+### February, 2nd ✔️ ✅
+[![February, 2nd](draws/02.png)](html/02.html)
