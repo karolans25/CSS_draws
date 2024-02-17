@@ -1,0 +1,38 @@
+<div></div>
+<style>
+  body{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #024817;
+  }
+  div {
+    width: 200px;
+    height: 40px;
+    background: #CCE9D3;
+  }
+  div:before, div:after{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    background: #CCE9D3;
+    clip-path: polygon(0% 34%, 33.5% 34%, 33.5% 0%, 67% 0%, 67% 34%, 100% 34%, 100% 100%, 0% 100%);
+  }
+  div:before{
+    transform: translate(40px, -75px);
+  }
+  div:after{
+    transform: translate(40px, 55px) scaleY(-1);
+  }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
