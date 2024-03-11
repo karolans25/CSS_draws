@@ -1,0 +1,57 @@
+<div></div>
+<figure></figure>
+<style>
+  body{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FAD3E5;
+    box-sizing: border-box;
+  }
+  div {
+    width: 260px;
+    height: 20px;
+    border: 20px solid #8B0051;
+    transform: translate(0px, 40px);
+  }
+  div:before, div:after{
+    content: '';
+    position: absolute;
+    width: 180px;
+    height: 20px;
+    border: 20px solid #8B0051;
+    transform: translate(20px, -60px);
+  }
+  div:after{
+    width: 100px;
+    transform: translate(60px, -100px);
+  }
+  figure{
+    position: absolute;
+    background: blue;
+    background: #FAD3E5;
+    width: 20px;
+    height: 100px;
+  }
+  figure:before, figure:after{
+    content: '';
+    position: absolute;
+    background: #8B0051;
+    width: 20px;
+    height: 80px;
+    transform: translate(0px, -100px);
+  }
+  figure:after{
+    transform: translate(0px, 120px);
+  }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
