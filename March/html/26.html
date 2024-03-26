@@ -1,0 +1,44 @@
+<div></div>
+<style>
+  body{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FCDDEB;
+  }
+  div {
+    width: 140px;
+    height: 20px;
+    background: #EF5CA5;
+    transform: translate(0px, -10px);
+  }
+  div:before, div:after{
+    content: '';
+    position: absolute;
+    width: 140px;
+    height: 70px;
+  }
+  div:before{
+    background: red;
+    background: linear-gradient(to right, #D5007F 50px, #F5A9CD 50px 90px, #D5007F 90px 140px);
+    transform: translate(0px, -70px);
+    border-radius: 100px 100px 0px 0px;
+  }
+  div:after{
+    height: 90px;
+    background: red;
+    transform: translate(0px, 20px);
+    clip-path: polygon(0 0, 100% 0, 100% 20px, 50% 100%, 0 20px);
+    background: conic-gradient(at 50% 70px, #EF5CA5 12.5%, #D5007F 12.5% 87.5%, #EF5CA5 87.5%);
+  }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
