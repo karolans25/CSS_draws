@@ -84,3 +84,6 @@ These were the CSS_Battle exercises made in March. Click over the image if you w
 
 ### March, 27th ✔️ ✅
 [![March, 27th](draws/27.png)](html/27.html)
+
+### March, 28th ✔️ ✅
+[![March, 28th](draws/28.png)](html/28.html)
